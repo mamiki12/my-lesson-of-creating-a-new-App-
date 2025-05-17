@@ -1,63 +1,44 @@
-h1{
-    color: #2296C7;
-    font-size: 40px;
-    font-family:Helvetica, sans-serif;
-    text-align: center;
+.gallery img {
+    width: 100%;
 }
 
 h2{
-    color: green;
-    font-family:Helvetica, sans-serif;
-    text-align: right;
+    font-family: Impact, fantasy;
+    text-align: center;
+    font-size: 30px;
+    color: cornflowerblue;
+    font-style: italic;
 }
 
-h3{
-    font-family: Comic Sans,Comic Sans MS,cursive;
+h4{
+    font-family: Impact, fantasy;
+    font-size: 20px;
+    color: cornflowerblue;
+    font-style: italic;
 }
 
 p{
-    font-weight: 800;
-    text-decoration: ;
+    font-family: Helvetica, sans-serif;
 }
 
-table{
-    font-family:Helvetica, sans-serif;
-    border-collapse: collapse;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #2695A6;
+#Menu{
+    width: 100%;
+    height: 40px;
+    background-color: cornflowerblue;
+    padding-top: 12PX;
 }
 
-
-
-th{
-    font-weight: 800;
-    background-color: #2695A6;
+#Menu a{
     color: #ffffff;
-}
-
-tr.alt td{
-    background-color: #9AEFFC;
-}
-
-ul{
-    list-style-image: url(images/pointer-icon.png);
-
-}
-ol{
-    list-style-type: upper-roman;
-}
-
-#menu-bar a{
+    font-family:Helvetica, sans-serif;
+    font-size: 18px;
     text-decoration: none;
-    background-color:aquamarine ;
-    padding: 5px;
+    font-weight: 800;
+
+    padding-left: 20PX;
+    padding-right: 20PX;
 }
 
-#menu-bar a:hover {
-    background-color: aqua;
-    color: #ffffff;
-    font-family:Helvetica, sans-serif;
-
-
+#Menu a:hover{
+    color: #5077bd;
 }
